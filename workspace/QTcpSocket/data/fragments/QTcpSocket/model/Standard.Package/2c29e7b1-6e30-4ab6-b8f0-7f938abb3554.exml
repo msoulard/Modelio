@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="qtcpsocket" version="4">
+  <OBJECT>
+    <ID name="qtcpsocket" mc="Standard.Package" uid="2c29e7b1-6e30-4ab6-b8f0-7f938abb3554"/>
+    <PID name="QTcpSocket" mc="Standard.Project" uid="1f7d66d0-5693-4f8c-bbc8-0e555607bdd0"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[qtcpsocket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="63df3f9e-bd9d-4bab-b2d6-febf96695638"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="QTcpSocket" mc="Standard.Class" uid="fad54894-9435-4575-90c6-62a15c6c85f8"/>
+        <COMPID name="QAbstractSocket" mc="Standard.Class" uid="e3146f0b-39c8-480f-b678-5e34004c9122"/>
+        <COMPID name="QIODevice" mc="Standard.Class" uid="a13779d7-a4fa-43ed-93d4-e6c65524151e"/>
+        <COMPID name="QObject" mc="Standard.Class" uid="a253c303-4954-4fd3-9879-744dedd6837f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe qtcpsocket" mc="Standard.ClassDiagram" uid="b2b6f8ea-5945-4d61-9e1a-68401ca762cf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

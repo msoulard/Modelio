@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="INTRUS_DETECTE" version="4">
+  <OBJECT>
+    <ID name="INTRUS_DETECTE" mc="Standard.Signal" uid="6361946b-393b-40fd-bb76-d69ef40f1472"/>
+    <PID name="Detecteur" mc="Standard.Class" uid="0bf8deb5-ab55-4fc6-93ac-bf881a3f9c08"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[INTRUS_DETECTE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

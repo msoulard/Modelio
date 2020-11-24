@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SURVEILLANCE" version="4">
+  <OBJECT>
+    <ID name="SURVEILLANCE" mc="Standard.Signal" uid="7be95463-6048-4609-a423-5019a3faf8c5"/>
+    <PID name="CentraleDalarme" mc="Standard.Class" uid="47788e7e-2313-4e5e-93ae-ce1a21ae6664"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">true</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SURVEILLANCE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

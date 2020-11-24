@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MODIFICATION_CODE" version="4">
+  <OBJECT>
+    <ID name="MODIFICATION_CODE" mc="Standard.Signal" uid="1a295d10-1dee-4f9a-801a-a5193960b79c"/>
+    <PID name="CentraleDalarme" mc="Standard.Class" uid="47788e7e-2313-4e5e-93ae-ce1a21ae6664"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MODIFICATION_CODE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

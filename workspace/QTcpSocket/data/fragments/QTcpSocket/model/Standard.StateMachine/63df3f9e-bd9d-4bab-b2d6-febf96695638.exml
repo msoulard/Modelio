@@ -1,0 +1,181 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine" version="4">
+  <OBJECT>
+    <ID name="State Machine" mc="Standard.StateMachine" uid="63df3f9e-bd9d-4bab-b2d6-febf96695638"/>
+    <PID name="qtcpsocket" mc="Standard.Package" uid="2c29e7b1-6e30-4ab6-b8f0-7f938abb3554"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[State Machine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Standard.Region" uid="ba9ed1e7-62b3-4da5-ba39-e13ddb2b645f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="Create" mc="Standard.InitialPseudoState" uid="63ec1f49-c91a-4a8a-8f92-1242c3cb7faa"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Create]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Unconnected" mc="Standard.State" uid="5e47d838-446a-477e-927a-d5422a6d9ac4"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Unconnected]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="e751b453-46b1-4e86-8526-a9952ce8d391"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="HostLookUp" mc="Standard.State" uid="20725270-bf56-481a-a556-f750037498c8"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="HostLookUp" mc="Standard.State" uid="20725270-bf56-481a-a556-f750037498c8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[HostLookUp]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="bc0ded41-f3ab-406d-b578-7dc2809fe14a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Connecting" mc="Standard.State" uid="1b4a9635-a1c7-4460-ae81-9ec1e19c66f5"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Connecting" mc="Standard.State" uid="1b4a9635-a1c7-4460-ae81-9ec1e19c66f5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Connecting]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="b395f435-97af-4730-9294-570e6f631692"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Connected" mc="Standard.State" uid="f8b9334a-8eca-4cfc-adeb-c99485436687"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="Effects">
+                          <ID name="hostFound" mc="Standard.Signal" uid="96a40fd4-8761-4fb0-bc8e-e1b5c6cbe142"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Connected" mc="Standard.State" uid="f8b9334a-8eca-4cfc-adeb-c99485436687"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Connected]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Bound" mc="Standard.State" uid="ba20dba0-1004-4050-9013-710059a2bbf0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Bound]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Listening" mc="Standard.State" uid="34f22f3e-2cd2-4769-8b0c-3b1f4b6560f0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Listening]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Descriptor">
+                    <OBJECT>
+                      <ID name="" mc="Infrastructure.Note" uid="25ee45d8-8498-4543-93ba-77bd5e1ddf1f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+                        <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Model">
+                          <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Closing" mc="Standard.State" uid="0d418ea7-d858-40ff-a12c-7c19ca874e5c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Closing]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme d'état State Machine" mc="Standard.StateMachineDiagram" uid="ad97208e-fa3c-4979-a6a4-d4361300486c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

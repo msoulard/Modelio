@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="labanque" version="4">
+  <OBJECT>
+    <ID name="labanque" mc="Standard.Package" uid="ffe82869-8446-4484-8a49-4d2ad62f19c8"/>
+    <PID name="LaBanque" mc="Standard.Project" uid="ea07f9e4-980f-4af8-aa40-d0e6a3852efd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[labanque]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CompteBancaire" mc="Standard.Class" uid="72a7e3b5-d9b2-4c26-ac69-e79344b0f39d"/>
+        <COMPID name="CompteEpargne" mc="Standard.Class" uid="012d7459-d3dd-4a57-8d67-56dfacc2957a"/>
+        <COMPID name="CompteClient" mc="Standard.Class" uid="469769ff-c0a9-4903-89e2-609b2bd7fcec"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe labanque" mc="Standard.ClassDiagram" uid="629cc214-f90f-47ae-978a-df33c6b8b377"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

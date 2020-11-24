@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QIODevice" version="4">
+  <OBJECT>
+    <ID name="QIODevice" mc="Standard.Class" uid="a13779d7-a4fa-43ed-93d4-e6c65524151e"/>
+    <PID name="qtcpsocket" mc="Standard.Package" uid="2c29e7b1-6e30-4ab6-b8f0-7f938abb3554"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[QIODevice]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="e0d08890-60a5-4291-907b-2f87e5114787"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="QObject" mc="Standard.Class" uid="a253c303-4954-4fd3-9879-744dedd6837f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="aboutToClose" mc="Standard.Signal" uid="5f76fbbc-db3f-4685-b5bc-28704d67d103"/>
+        <COMPID name="bytesWritten" mc="Standard.Signal" uid="6675786b-f24f-4a70-b66f-46243de1b209"/>
+        <COMPID name="channelBytesWritten" mc="Standard.Signal" uid="3ecc5de6-e560-44ec-a88b-6fc587aee080"/>
+        <COMPID name="channelReadyRead" mc="Standard.Signal" uid="f8f0775c-4e33-4578-94ac-2aeda431fcff"/>
+        <COMPID name="readChannelFinished" mc="Standard.Signal" uid="867e146d-fe08-41b8-895e-ca4ab0e2eb49"/>
+        <COMPID name="readyRead" mc="Standard.Signal" uid="6c1940ee-9325-4eca-a668-5b331a689826"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

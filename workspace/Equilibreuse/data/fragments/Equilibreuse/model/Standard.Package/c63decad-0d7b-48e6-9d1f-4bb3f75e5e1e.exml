@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="equilibreuse" version="4">
+  <OBJECT>
+    <ID name="equilibreuse" mc="Standard.Package" uid="c63decad-0d7b-48e6-9d1f-4bb3f75e5e1e"/>
+    <PID name="Equilibreuse" mc="Standard.Project" uid="4b0dae02-290e-4eab-9b7c-96daa84a2630"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[equilibreuse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Etudiant" mc="Standard.Actor" uid="1f4a7c69-b6c5-4eb4-8277-87a4e355974f"/>
+        <COMPID name="Réaliser une expérience" mc="Standard.UseCase" uid="7f7389b4-7b10-4ee0-b2f8-f6a1980944c6"/>
+        <COMPID name="Prendre origine" mc="Standard.UseCase" uid="a6be2145-75fd-4e82-8620-42f386aa0794"/>
+        <COMPID name="Ajuster la vitesse du moteur" mc="Standard.UseCase" uid="6b19fff3-a2e0-42c6-a682-3914463d12ed"/>
+        <COMPID name="Acquérir des données" mc="Standard.UseCase" uid="7d7586de-8f1e-4c1b-b3bf-204d3d760f91"/>
+        <COMPID name="Afficher graphiquement les courbes" mc="Standard.UseCase" uid="ec1cc914-0098-48f0-84aa-77436baa6e87"/>
+        <COMPID name="Système expérimental d'équilibrage" mc="Standard.Actor" uid="d4872a16-5bc5-460f-9caa-c46180fe78e2"/>
+        <COMPID name="Surveiller l'état du capot" mc="Standard.UseCase" uid="8093bf2f-07b6-43af-90cb-524c6a3760eb"/>
+        <COMPID name="Equilibreuse" mc="Standard.Class" uid="8efaa440-5035-456c-b12f-285d6eb767f2"/>
+        <COMPID name="Codeur" mc="Standard.Class" uid="b7f0242e-e95c-4ec2-b513-60d6ccea194f"/>
+        <COMPID name="Experience" mc="Standard.Class" uid="ac1c4203-70ff-472b-8cba-8d6bfb62ba6d"/>
+        <COMPID name="Capot" mc="Standard.Class" uid="6ba37e26-35a4-48d0-a084-d6c78e6d4f3c"/>
+        <COMPID name="Timer" mc="Standard.Class" uid="3a9d8eba-78b1-4195-97ac-28025c23112b"/>
+        <COMPID name="Moteur" mc="Standard.Class" uid="13577675-80a3-40f9-86b0-391d26d59185"/>
+        <COMPID name="Caracteristiques" mc="Standard.Class" uid="06183c53-6762-4940-a396-8c24da2bcfc8"/>
+        <COMPID name="NI6211" mc="Standard.Class" uid="11d51f71-e242-4d69-83fc-712648b343e3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation equilibreuse" mc="Standard.UseCaseDiagram" uid="a59383ae-bd55-409c-b62f-74f45597c6f2"/>
+        <COMPID name="Diagramme de classe equilibreuse" mc="Standard.ClassDiagram" uid="ad50d04f-fdc4-4602-b0ab-d1989ecaee6e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

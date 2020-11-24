@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LaBanque" version="4">
+  <OBJECT>
+    <ID name="LaBanque" mc="Standard.Project" uid="ea07f9e4-980f-4af8-aa40-d0e6a3852efd"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[LaBanque]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="labanque" mc="Standard.Package" uid="ffe82869-8446-4484-8a49-4d2ad62f19c8"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="LaBanque" mc="Infrastructure.DiagramSet" uid="7d8ab96e-5568-4842-8b45-4a3d0f98bca4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

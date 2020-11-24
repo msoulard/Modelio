@@ -1,0 +1,6 @@
+#Fri Oct 02 12:50:41 CEST 2020
+org.modelio.diagram.editor.OpenedDiagrams4='Diagramme d'\u00E9tat State Machine' {714ae293-5d4c-4266-b4df-45f77d77b044} Standard.StateMachineDiagram
+org.modelio.diagram.editor.OpenedDiagrams3='Diagramme de s\u00E9quence Interaction' {1ec2d309-0954-4b71-8d98-0cb262a42936} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Diagramme de classe horloge' {12d38e07-fdd8-497a-b2b6-2534a3099224} Standard.ClassDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Diagramme de s\u00E9quence Interaction' {7d2c0025-dfe2-4ea6-9f81-c9dd8749a0c2} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Diagramme de cas d'utilisation systemehorloge' {ff84bbbc-ca92-40ce-8242-06e1aea87d25} Standard.UseCaseDiagram

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QTcpSocket" version="4">
+  <OBJECT>
+    <ID name="QTcpSocket" mc="Infrastructure.DiagramSet" uid="7e3bc670-33f9-4a6e-ac84-eec272bb3242"/>
+    <PID name="QTcpSocket" mc="Standard.Project" uid="1f7d66d0-5693-4f8c-bbc8-0e555607bdd0"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[QTcpSocket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

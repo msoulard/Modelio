@@ -1,0 +1,14 @@
+#Fri Oct 02 12:59:05 CEST 2020
+org.modelio.module.propertytab.TogafArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/TogafArchitect_3.9.00/TogafArchitect_3.9.00.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.SysMLArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/SysMLArchitect_3.9.00/SysMLArchitect_3.9.00.jmdac\ runtime\ module_SysMLPropertyPage.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.TogafArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/TogafArchitect_3.9.00/TogafArchitect_3.9.00.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.diagram.editor.OpenedDiagrams4='Diagramme d'\u00E9tat State Machine' {8647f5d5-8b20-40d8-96fa-bcf4c9ce2f64} Standard.StateMachineDiagram
+org.modelio.module.propertytab.TogafArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/TogafArchitect_3.9.00/TogafArchitect_3.9.00.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.diagram.editor.OpenedDiagrams3='Diagramme de cas d'utilisation horloge' {7b627818-132f-4790-ad8c-f6114c708bca} Standard.UseCaseDiagram
+org.modelio.module.propertytab.TogafArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/TogafArchitect_3.9.00/TogafArchitect_3.9.00.jmdac\ runtime\ module_TogafPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.diagram.editor.OpenedDiagrams2='Diagramme de s\u00E9quence Effectuer les r\u00E9glages' {6890a3ae-a9d6-416f-9b7b-75b592136143} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Diagramme de classe horloge' {e8eb0369-8c3d-46fd-a97d-9ac1d2a04fda} Standard.ClassDiagram
+org.modelio.module.propertytab.SysMLArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/SysMLArchitect_3.9.00/SysMLArchitect_3.9.00.jmdac\ runtime\ module_SysMLPropertyPage.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.diagram.editor.OpenedDiagrams0='Diagramme de s\u00E9quence Assurer le fonctionnement' {044b3a6c-36a8-4d3c-9bc0-055ee611e75a} Standard.SequenceDiagram
+org.modelio.module.propertytab.SysMLArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/SysMLArchitect_3.9.00/SysMLArchitect_3.9.00.jmdac\ runtime\ module_SysMLPropertyPage.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.module.propertytab.SysMLArchitect\ v3.9.00\ GModule\ @file\:///home/philippe/.modelio/4.0/modules/SysMLArchitect_3.9.00/SysMLArchitect_3.9.00.jmdac\ runtime\ module_SysMLPropertyPage.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom

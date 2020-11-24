@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Dietetique" version="4">
+  <OBJECT>
+    <ID name="Dietetique" mc="Standard.Project" uid="563d5834-2654-4d82-8704-212b0d39e730"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Dietetique]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="dietetique" mc="Standard.Package" uid="8d0f0140-9d5b-4ae1-a7c4-2182dca8c037"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Dietetique" mc="Infrastructure.DiagramSet" uid="090fd8b2-a4d0-4f55-8939-8fbfd8795559"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

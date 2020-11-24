@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CentraleDAlarme_Analyse" version="4">
+  <OBJECT>
+    <ID name="CentraleDAlarme_Analyse" mc="Standard.Project" uid="e1288798-9a4a-4d46-b2ce-39ce66e55a68"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[CentraleDAlarme_Analyse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="centraledalarme_analyse" mc="Standard.Package" uid="d5ba3f0b-b60b-46f0-b235-11f9c82352ac"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="CentraleDAlarme_Analyse" mc="Infrastructure.DiagramSet" uid="69c823da-51ff-46e7-b037-a3ba2974f592"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

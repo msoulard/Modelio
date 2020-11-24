@@ -1,0 +1,6 @@
+#Thu Oct 01 11:57:14 CEST 2020
+org.modelio.diagram.editor.OpenedDiagrams4='Diagramme d'\u00E9tat State Machine' {ca416c47-60da-402f-99a2-5db7456830c4} Standard.StateMachineDiagram
+org.modelio.diagram.editor.OpenedDiagrams3='Diagramme de s\u00E9quence Interaction' {3f95cff3-6a1c-4cc4-ad3a-6c214ca0b115} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Diagramme de s\u00E9quence Interaction' {ba0d37fc-0981-4ee4-8771-538e68e3fc96} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Diagramme de cas d'utilisation equilibreuse' {a59383ae-bd55-409c-b62f-74f45597c6f2} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Diagramme de classe equilibreuse' {ad50d04f-fdc4-4602-b0ab-d1989ecaee6e} Standard.ClassDiagram

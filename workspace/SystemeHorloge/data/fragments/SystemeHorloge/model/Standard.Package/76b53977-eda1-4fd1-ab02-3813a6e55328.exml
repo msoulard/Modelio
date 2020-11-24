@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="horloge" version="4">
+  <OBJECT>
+    <ID name="horloge" mc="Standard.Package" uid="76b53977-eda1-4fd1-ab02-3813a6e55328"/>
+    <PID name="SystemeHorloge" mc="Standard.Project" uid="91d74151-d21c-4d84-9640-d8070f35259d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[horloge]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="93b42393-a63e-44d4-9c46-17f50b5d4ccb"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Utilisateur" mc="Standard.Actor" uid="ef59c296-c994-4bc0-81cd-ef990d6ce8f1"/>
+        <COMPID name="Effectuer les réglages" mc="Standard.UseCase" uid="81e02897-761d-4e32-b33e-3b73a5871d92"/>
+        <COMPID name="Assurer le fonctionnement" mc="Standard.UseCase" uid="2051cb2f-41fa-4761-8f18-d29aefe0f4d9"/>
+        <COMPID name="Clavier" mc="Standard.Class" uid="cf25351d-26dc-4279-9b35-ebaac2ab5538"/>
+        <COMPID name="Horloge" mc="Standard.Class" uid="1280d5ec-0ae3-4765-9798-b893ebb988ec"/>
+        <COMPID name="Cadran" mc="Standard.Class" uid="80c10770-4636-4e24-aa23-f9844739f7f0"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation systemehorloge" mc="Standard.UseCaseDiagram" uid="ff84bbbc-ca92-40ce-8242-06e1aea87d25"/>
+        <COMPID name="Diagramme de classe horloge" mc="Standard.ClassDiagram" uid="12d38e07-fdd8-497a-b2b6-2534a3099224"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

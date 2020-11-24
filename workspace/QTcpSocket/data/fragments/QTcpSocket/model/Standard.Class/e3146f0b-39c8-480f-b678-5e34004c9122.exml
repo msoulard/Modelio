@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QAbstractSocket" version="4">
+  <OBJECT>
+    <ID name="QAbstractSocket" mc="Standard.Class" uid="e3146f0b-39c8-480f-b678-5e34004c9122"/>
+    <PID name="qtcpsocket" mc="Standard.Package" uid="2c29e7b1-6e30-4ab6-b8f0-7f938abb3554"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[QAbstractSocket]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="9263ac74-814c-4e5a-bbef-ff23c68d26fd"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="QIODevice" mc="Standard.Class" uid="a13779d7-a4fa-43ed-93d4-e6c65524151e"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="connected" mc="Standard.Signal" uid="60d2b5b5-308b-49d8-bdd1-48378d499ade"/>
+        <COMPID name="disconnected" mc="Standard.Signal" uid="0240baf7-be2b-4259-a2a5-f675fcd40967"/>
+        <COMPID name="errorOccurred" mc="Standard.Signal" uid="72bfeab6-fcb5-44e2-a96c-553fce050f0a"/>
+        <COMPID name="hostFound" mc="Standard.Signal" uid="96a40fd4-8761-4fb0-bc8e-e1b5c6cbe142"/>
+        <COMPID name="proxyAuthenticationRequired" mc="Standard.Signal" uid="991946e1-89c5-43cd-8367-65bacd1866d7"/>
+        <COMPID name="stateChanged" mc="Standard.Signal" uid="2d672b77-5c24-42e0-8817-6d8d009d1223"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

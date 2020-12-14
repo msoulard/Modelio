@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QWebSocketEtQWebSocketServer" version="4">
+  <OBJECT>
+    <ID name="QWebSocketEtQWebSocketServer" mc="Standard.Project" uid="950bc1aa-4084-4812-8dce-caeab51c32d7"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[QWebSocketEtQWebSocketServer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="qwebsocketetqwebsocketserver" mc="Standard.Package" uid="318ff773-6e13-4927-9a50-824e5f27bc01"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="QWebSocketEtQWebSocketServer" mc="Infrastructure.DiagramSet" uid="fecc2d51-4252-40e4-8dd6-d88a4bc3a251"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

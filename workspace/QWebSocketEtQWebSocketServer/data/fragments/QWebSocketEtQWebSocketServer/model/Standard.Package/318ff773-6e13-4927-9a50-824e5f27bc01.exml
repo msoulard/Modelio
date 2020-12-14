@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="qwebsocketetqwebsocketserver" version="4">
+  <OBJECT>
+    <ID name="qwebsocketetqwebsocketserver" mc="Standard.Package" uid="318ff773-6e13-4927-9a50-824e5f27bc01"/>
+    <PID name="QWebSocketEtQWebSocketServer" mc="Standard.Project" uid="950bc1aa-4084-4812-8dce-caeab51c32d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[qwebsocketetqwebsocketserver]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="QObject" mc="Standard.Class" uid="80f1877c-927f-4d74-9270-b41847f77e77"/>
+        <COMPID name="QWebSocket" mc="Standard.Class" uid="b65aa673-7d4b-4b96-a212-7a034a042ced"/>
+        <COMPID name="QWebSocketServer" mc="Standard.Class" uid="066c6c6e-c80f-4b4e-9890-10f603db9000"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe qwebsocketetqwebsocketserver" mc="Standard.ClassDiagram" uid="7f3fe243-94fa-4a60-877b-e9378e96fe13"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

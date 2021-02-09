@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AppliSmartphoneAgent" version="4">
   <OBJECT>
-    <ID name="AppliSmartphoneAgent" mc="Standard.Class" uid="7032f9be-3223-4a94-9598-529f62efec30"/>
+    <ID name="AppliSmartphoneAgent" mc="Standard.Class" uid="06e9f987-24b7-4ba4-b119-16d918c7f1d8"/>
     <PID name="controleurderonde2020" mc="Standard.Package" uid="d4b0fda3-aa7f-409c-8bb9-7657974d87d4"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>

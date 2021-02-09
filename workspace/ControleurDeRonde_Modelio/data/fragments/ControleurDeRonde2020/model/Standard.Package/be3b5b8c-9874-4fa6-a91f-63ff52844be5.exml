@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Application smartphone" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Application smartphone agent" version="4">
   <OBJECT>
-    <ID name="Application smartphone" mc="Standard.Package" uid="be3b5b8c-9874-4fa6-a91f-63ff52844be5"/>
+    <ID name="Application smartphone agent" mc="Standard.Package" uid="be3b5b8c-9874-4fa6-a91f-63ff52844be5"/>
     <PID name="controleurderonde2020" mc="Standard.Package" uid="d4b0fda3-aa7f-409c-8bb9-7657974d87d4"/>
     <ATTRIBUTES>
       <ATT name="IsInstantiable">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Application smartphone]]></ATT>
+      <ATT name="Name"><![CDATA[Application smartphone agent]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -22,7 +22,6 @@
         <COMPID name="Envoyer une ronde de surveillance" mc="Standard.UseCase" uid="ed8aef6f-16d8-48ad-ab04-a35c545ee22f"/>
         <COMPID name="Télécharger des rondes de surveillance" mc="Standard.UseCase" uid="5873fec1-a222-4bc5-8f56-f874b6a6284f"/>
         <COMPID name="Identifier un agent de sécurité" mc="Standard.UseCase" uid="ac5dad3f-37da-426d-95de-43e10b70a685"/>
-        <COMPID name="Fabriquer une ronde" mc="Standard.UseCase" uid="e19c473b-9cb0-410a-954e-aae9e769b3aa"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
